@@ -6,4 +6,4 @@ ENV CGO_ENABLED=0
 
 RUN go install github.com/spf13/cobra/cobra@latest
 
-CMD ["tail", "-F", "/dev/null"]
+CMD ["tail", "-f", "/dev/null"]
